@@ -1,8 +1,1 @@
-- 👋 Hi, I’m @aidrecabrera
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-
-<!---
-aidrecabrera/aidrecabrera is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Welcome, visitor. I am Aidre Love S. Cabrera. I am currently studying Bachelor of Science in Computer Science at the University of Mindanao. I am a newbie in the field of programming. However, I always do my best to learn and be curious about such stuff for the sake of my career development.
