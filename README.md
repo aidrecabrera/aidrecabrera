@@ -11,14 +11,15 @@
 
 <!--SOCIALS-->
 <p align="center">
-
-[![portfolio](https://custom-icon-badges.demolab.com/badge/-portfolio-FEFAE0?style=for-the-badge&logoColor=black&logo=issue-opened)](https://aidrecabrera.github.io/)
-[![facebook](https://img.shields.io/badge/facebook-FEFAE0?style=for-the-badge&logo=facebook&logoColor=black)](https://twitter.com/aidrecabrera/)
-[![twitter](https://img.shields.io/badge/twitter-FEFAE0?style=for-the-badge&logo=twitter&logoColor=black)](https://twitter.com/aidrecabrera/)
-[![discord](https://img.shields.io/badge/discord-FEFAE0?style=for-the-badge&logo=discord&logoColor=black)](https://twitter.com/aidrecabrera/)
-[![dev](https://img.shields.io/badge/dev.to-FEFAE0?style=for-the-badge&logo=dev.to&logoColor=black)](https://twitter.com/aidrecabrera/)
-[![linkedin](https://img.shields.io/badge/linkedin-FEFAE0?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/aidrecabrera/)
-
+  <a href="https://aidrecabrera.github.io/"><img alt="Portfolio" title="Portfolio" src="https://custom-icon-badges.demolab.com/badge/-portfolio-FEFAE0?style=for-the-badge&logoColor=black&logo=issue-opened"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://twitter.com/aidrecabrera/"><img alt="Twitter" title="Twitter" src="https://img.shields.io/badge/twitter-FEFAE0?style=for-the-badge&logo=twitter&logoColor=black"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://twitter.com/aidrecabrera/" alt="Discord" title="Discord"><img src="https://img.shields.io/badge/discord-FEFAE0?style=for-the-badge&logo=discord&logoColor=black"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://twitter.com/aidrecabrera/"><img alt="Dev.to" title="Dev.to" src="https://img.shields.io/badge/dev.to-FEFAE0?style=for-the-badge&logo=dev.to&logoColor=black"></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://www.linkedin.com/aidrecabrera/"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/linkedin-FEFAE0?style=for-the-badge&logo=linkedin&logoColor=black"/></a>
 </p>
 
 </div>
