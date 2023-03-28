@@ -15,9 +15,9 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://twitter.com/aidrecabrera/"><img alt="Twitter" title="Twitter" src="https://img.shields.io/badge/twitter-FEFAE0?style=for-the-badge&logo=twitter&logoColor=black"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://twitter.com/aidrecabrera/" alt="Discord" title="Discord"><img src="https://img.shields.io/badge/discord-FEFAE0?style=for-the-badge&logo=discord&logoColor=black"/></a>
+  <a href="https://discordapp.com/users/253494226862473216/" alt="Discord" title="Discord"><img src="https://img.shields.io/badge/discord-FEFAE0?style=for-the-badge&logo=discord&logoColor=black"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://twitter.com/aidrecabrera/"><img alt="Dev.to" title="Dev.to" src="https://img.shields.io/badge/dev.to-FEFAE0?style=for-the-badge&logo=dev.to&logoColor=black"></a>
+  <a href="https://dev.to/aidrecabrera/"><img alt="Dev.to" title="Dev.to" src="https://img.shields.io/badge/dev.to-FEFAE0?style=for-the-badge&logo=dev.to&logoColor=black"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://www.linkedin.com/aidrecabrera/"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/linkedin-FEFAE0?style=for-the-badge&logo=linkedin&logoColor=black"/></a>
 </p>
