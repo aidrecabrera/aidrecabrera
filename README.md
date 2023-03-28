@@ -10,7 +10,7 @@
 </div> 
 
 <!--SOCIALS-->
-<div style="text-align: center;">
+<div style="text-align:center;display:flex;justify-content:center">
 
 [![portfolio](https://custom-icon-badges.demolab.com/badge/-portfolio-FEFAE0?style=for-the-badge&logoColor=black&logo=issue-opened)](https://aidrecabrera.github.io/)
 [![facebook](https://img.shields.io/badge/facebook-FEFAE0?style=for-the-badge&logo=facebook&logoColor=black)](https://twitter.com/aidrecabrera/)
@@ -18,7 +18,6 @@
 [![discord](https://img.shields.io/badge/discord-FEFAE0?style=for-the-badge&logo=discord&logoColor=black)](https://twitter.com/aidrecabrera/)
 [![dev](https://img.shields.io/badge/dev.to-FEFAE0?style=for-the-badge&logo=dev.to&logoColor=black)](https://twitter.com/aidrecabrera/)
 [![linkedin](https://img.shields.io/badge/linkedin-FEFAE0?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/aidrecabrera/)
-
 
 </div>
 
