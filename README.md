@@ -7,7 +7,7 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Open+Sans&weight=300&duration=3000&pause=2000&color=FEFAE0&center=true&vCenter=true&width=435&lines=Hello%2C+World.;Step+into+my+mind+and+explore+my+creations." alt="Typing SVG" /></a>
 
-</div>
+</div> 
 
 
 <!--SOCIALS-->
