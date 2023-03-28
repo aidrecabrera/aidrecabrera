@@ -9,28 +9,17 @@
 
 </div> 
 
-
-
-
-
 <!--SOCIALS-->
+<div style="text-align: center;">
 
-<div style="display:flex; justify-content:center;">
-<!-- Facebook -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-<a href="https://fb.com/aidrecabrera777" style="padding:10px">
-<i class="devicon-facebook-plain" style="font-size:53px;color:#FEFAE0"></i>
-</a> 
+[![portfolio](https://custom-icon-badges.demolab.com/badge/-portfolio-FEFAE0?style=for-the-badge&logoColor=black&logo=issue-opened)](https://aidrecabrera.github.io/)
+[![facebook](https://img.shields.io/badge/facebook-FEFAE0?style=for-the-badge&logo=facebook&logoColor=black)](https://twitter.com/aidrecabrera/)
+[![twitter](https://img.shields.io/badge/twitter-FEFAE0?style=for-the-badge&logo=twitter&logoColor=black)](https://twitter.com/aidrecabrera/)
+[![discord](https://img.shields.io/badge/discord-FEFAE0?style=for-the-badge&logo=discord&logoColor=black)](https://twitter.com/aidrecabrera/)
+[![dev](https://img.shields.io/badge/dev.to-FEFAE0?style=for-the-badge&logo=dev.to&logoColor=black)](https://twitter.com/aidrecabrera/)
+[![linkedin](https://img.shields.io/badge/linkedin-FEFAE0?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/aidrecabrera/)
 
 
-<!-- Twitter -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-<a href="https://fb.com/aidrecabrera777"  style="padding:10px">
-<img src="https://i.imgur.com/SpGqGdz.png" alt="Discord Icon"*height*="50">
-</a> 
+</div>
 
-<!-- Discord -->
-<a href="http://discordapp.com/users/253494226862473216" style="padding:10px">
-<img src="https://i.imgur.com/lMvQeDz.png" alt="Discord Icon" height="50">
-</a> 
 </div>
