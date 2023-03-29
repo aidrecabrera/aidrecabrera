@@ -46,5 +46,5 @@
 <!--MOTTO-->
 
 <p align="center">
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Open+Sans&weight=300&size=25&duration=500&pause=200&color=F7F7F7&center=true&vCenter=true&repeat=false&width=500&height=65&lines=%22I+KNOW+THAT+I+KNOW+NOTHING%22)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Open+Sans&weight=300&size=25&duration=500&pause=200&color=F7F7F7&center=true&vCenter=true&repeat=false&width=500&height=65&lines=%22I+KNOW+THAT+I+KNOW+NOTHING%22" alt="Typing SVG" /></a>
 </p>
