@@ -1,5 +1,4 @@
-<!--HEADINGS-->
-
+<!--
 <div align="center">
 
 <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Big+Shoulders+Display&weight=700&size=75&duration=4000&pause=10&color=FEFAE0&center=true&vCenter=true&repeat=false&width=1000&height=110&lines=Aidre+%22Svene%22+Cabrera" alt="Typing SVG" /></a>
@@ -7,8 +6,6 @@
 <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Open+Sans&weight=300&duration=3000&pause=1000&color=FEFAE0&center=true&vCenter=true&width=435&lines=Hello%2C+World.;Step+into+my+mind+and+explore+my+creations." alt="Typing SVG"/></a>
 
 </div> 
-
-<!--SOCIALS-->
 <p align="center">
   <a href="https://aidrecabrera.github.io/"><img alt="Portfolio" title="Portfolio" src="https://custom-icon-badges.demolab.com/badge/-portfolio-FEFAE0?style=for-the-badge&logoColor=black&logo=issue-opened"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
@@ -37,6 +34,7 @@
 </div>
 
 ---
+-->
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Big+Shoulders+Display&weight=500&size=75&duration=500&pause=200&color=F7F7F7&multiline=true&repeat=false&width=600&height=110&lines=About+Me)](#)
 
