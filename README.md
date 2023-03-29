@@ -25,11 +25,11 @@
 
 <div>
   <p align="center">
-    <a>
+    <a href="#">
        <img alt="GitHub Developer Program" title="Github Developer Program" src="https://custom-icon-badges.demolab.com/badge/GitHub-Developer%20Program%20Member-palegreen?style=for-the-badge&logo=github-dev&logoColor=white">
     </a>
     &#8287;&#8287;&#8287;
-    <a>
+    <a href="#">
        <img alt="GitHub Pro" title="GitHub Pro" src="https://custom-icon-badges.demolab.com/badge/GitHub-Pro%20Member-purple?style=for-the-badge&logo=github-dev&logoColor=white">
     </a>
 </div>
