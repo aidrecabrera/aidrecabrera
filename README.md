@@ -42,7 +42,7 @@
 
 <!--UNDER CONSTRUCTION-->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=100&size=12&duration=500&pause=200&color=F7F7F7&background=65FF0000&multiline=true&repeat=false&width=500&height=310&lines=ERROR+CAN'T+ACCESS+%22ABOUT+ME%22;svene%40github-readme%3A~%24+cd+..%2F;svene%40github%3A~%24+ls;aidrecabrera;svene%40github%3A~%24+cd+aidrecabrera;svene%40github%3A~%2Faidrecabrera%24+ls;README.md;svene%40github%3A~%2Faidrecabrera%24+cat+;README.md;+++++++++++;Hey+there%2C+my+GitHub+profile+is+still+under+construction.;But+have+no+fear%2C+I+am+currently+thinking+of+ways+to+make+this+GitHub+profile+even+better+for+you.;Thank+you+for+being+patient+and+for+tuning+in.+;Stay+safe+and+keep+an+eye+out+for+updates!;++++++++++++++++++;-+Svene;++++++++++++++++++;svene%40github%3A~%2Faidrecabrera%24+exitp+quickly;++++++++++++++++++)](#)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=100&size=12&duration=500&pause=200&color=F7F7F7&background=65FF0000&multiline=true&repeat=false&width=500&height=310&lines=ERROR+CAN'T+ACCESS+%22ABOUT+ME%22;svene%40github-readme%3A~%24+cd+..%2F;svene%40github%3A~%24+ls;aidrecabrera;svene%40github%3A~%24+cd+aidrecabrera;svene%40github%3A~%2Faidrecabrera%24+ls;README.md;svene%40github%3A~%2Faidrecabrera%24+cat+;README.md;+++++++++++;Hey+there%2C+my+GitHub+profile+is+still+under+construction.;But+have+no+fear%2C+I+am+currently+thinking+of+ways+to+make+this+GitHub+profile+even+better+for+you.;Thank+you+for+being+patient+and+for+tuning+in.+;Stay+safe+and+keep+an+eye+out+for+updates!;++++++++++++++++++;-+Svene;++++++++++++++++++;svene%40github%3A~%2Faidrecabrera%24+exit;++++++++++++++++++)](#)
 
 
 <!--MOTTO-->
