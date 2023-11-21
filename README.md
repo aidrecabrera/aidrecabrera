@@ -39,7 +39,6 @@
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 [![Git](https://img.shields.io/badge/-Git-black?style=for-the-badge&logoColor=white&logo=git)](https://git-scm.com/)
 ![GitHub](https://img.shields.io/badge/github-black.svg?style=for-the-badge&logo=github&logoColor=white)
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-black.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-black?style=for-the-badge&logo=postman&logoColor=white)
 [![Bash](https://img.shields.io/badge/-Bash-black?style=for-the-badge&logoColor=white&logo=gnu-bash)](https://www.gnu.org/software/bash/)
 [![Figma](https://img.shields.io/badge/-Figma-black?style=for-the-badge&logoColor=white&logo=figma)](https://www.figma.com/)
