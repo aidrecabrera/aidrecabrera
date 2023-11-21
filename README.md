@@ -1,5 +1,3 @@
-# A humble aspirant who loves Computer Science, Technology, and Writing.
-
 [![Technologies I Have Touched](https://img.shields.io/badge/Technologies%20I%20Have%20Touched-black?style=for-the-badge&logoColor=white)](https://your-link-here.com)
 [![C](https://img.shields.io/badge/-C-black?style=for-the-badge&logoColor=white&logo=c)](https://www.cprogramming.com/)
 [![C#](https://img.shields.io/badge/-C%23-black?style=for-the-badge&logoColor=white&logo=c-sharp)](https://www.w3schools.com/cs/)
