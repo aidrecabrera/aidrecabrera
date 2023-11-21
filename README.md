@@ -44,6 +44,8 @@
 [![Figma](https://img.shields.io/badge/-Figma-black?style=for-the-badge&logoColor=white&logo=figma)](https://www.figma.com/)
 [![Framer](https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer)](https://www.framer.com/)
 [![Illustrator](https://img.shields.io/badge/-Illustrator-black?style=for-the-badge&logoColor=white&logo=adobe-illustrator)](https://www.adobe.com/in/products/illustrator.html)
+![Microsoft Access](https://img.shields.io/badge/Microsoft_Access-black?style=for-the-badge&logo=microsoft-access&logoColor=white)
+![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-black?style=for-the-badge&logo=microsoft-office&logoColor=white)
 ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-black?style=for-the-badge&logo=adobeindesign&logoColor=white)
 ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-black.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
 ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-black.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
