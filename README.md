@@ -1,33 +1,53 @@
-<h3 align="center">A humble aspirant who loves Computer Science, Technology, and Writing.</h3>
+# A humble aspirant who loves Computer Science, Technology, and Writing.
 
-<div>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-  <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a>
-  <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a>
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-  <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a>
-  <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a>
-  <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
-  <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a>
-  <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a>
-  <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a>
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a>
-</div>
+[![Technologies I Have Touched](https://img.shields.io/badge/Technologies%20I%20Have%20Touched-black?style=for-the-badge&logoColor=white)](https://your-link-here.com)
+[![C](https://img.shields.io/badge/-C-black?style=for-the-badge&logoColor=white&logo=c)](https://www.cprogramming.com/)
+[![C#](https://img.shields.io/badge/-C%23-black?style=for-the-badge&logoColor=white&logo=c-sharp)](https://www.w3schools.com/cs/)
+[![Java](https://img.shields.io/badge/-Java-black?style=for-the-badge&logoColor=white&logo=java)](https://www.java.com/)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logoColor=white&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logoColor=white&logo=python)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript)](https://www.typescriptlang.org/)
+[![Dart](https://img.shields.io/badge/-Dart-black?style=for-the-badge&logoColor=white&logo=dart)](https://dart.dev)
+[![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logoColor=white&logo=html5)](https://www.w3.org/html/)
+[![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logoColor=white&logo=css3)](https://www.w3schools.com/css/)
+![NPM](https://img.shields.io/badge/NPM-black.svg?style=for-the-badge&logo=npm&logoColor=white)
+![PNPM](https://img.shields.io/badge/pnpm-black.svg?style=for-the-badge&logo=pnpm&logoColor=white)
+[![Bootstrap](https://img.shields.io/badge/-Bootstrap-black?style=for-the-badge&logoColor=white&logo=bootstrap)](https://getbootstrap.com/)
+![Blazor](https://img.shields.io/badge/blazor-black.svg?style=for-the-badge&logo=blazor&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/daisyui-black?style=for-the-badge&logo=daisyui&logoColor=white)
+[![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwind-css)](https://tailwindcss.com/)
+![Vite](https://img.shields.io/badge/vite-black.svg?style=for-the-badge&logo=vite&logoColor=white)
+[![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logoColor=white&logo=react)](https://reactjs.org/)
+[![Vue.js](https://img.shields.io/badge/-Vue.js-black?style=for-the-badge&logoColor=white&logo=vue.js)](https://vuejs.org/)
+[![Flutter](https://img.shields.io/badge/-Flutter-black?style=for-the-badge&logoColor=white&logo=flutter)](https://flutter.dev/)
+[![Next.js](https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logoColor=white&logo=next.js)](https://nextjs.org/)
+[![Express.js](https://img.shields.io/badge/-Express.js-black?style=for-the-badge&logoColor=white&logo=express)](https://expressjs.com/)
+[![Django](https://img.shields.io/badge/-Django-black?style=for-the-badge&logoColor=white&logo=django)](https://www.djangoproject.com/)
+![DjangoREST](https://img.shields.io/badge/DJANGO-REST-black?style=for-the-badge&logo=django&logoColor=white&color=black&labelColor=black)
+[![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb)](https://www.mongodb.com/)
+[![MSSQL](https://img.shields.io/badge/-MSSQL-black?style=for-the-badge&logoColor=white&logo=microsoft-sql-server)](https://www.microsoft.com/en-us/sql-server)
+[![MySQL](https://img.shields.io/badge/-MySQL-black?style=for-the-badge&logoColor=white&logo=mysql)](https://www.mysql.com/)
+[![SQLite](https://img.shields.io/badge/-SQLite-black?style=for-the-badge&logoColor=white&logo=sqlite)](https://www.sqlite.org/)
+[![Azure](https://img.shields.io/badge/-Azure-black?style=for-the-badge&logoColor=white&logo=microsoft-azure)](https://azure.microsoft.com/en-in/)
+[![GCP](https://img.shields.io/badge/-GCP-black?style=for-the-badge&logoColor=white&logo=google-cloud)](https://cloud.google.com/)
+![LaTeX](https://img.shields.io/badge/latex-black.svg?style=for-the-badge&logo=latex&logoColor=white)
+[![Firebase](https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logoColor=white&logo=firebase)](https://firebase.google.com/)
+[![Docker](https://img.shields.io/badge/-Docker-black?style=for-the-badge&logoColor=white&logo=docker)](https://www.docker.com/)
+![Github Pages](https://img.shields.io/badge/github%20pages-black?style=for-the-badge&logo=github&logoColor=white)
+![Windows 11](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows%2011&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=Linux&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+[![Git](https://img.shields.io/badge/-Git-black?style=for-the-badge&logoColor=white&logo=git)](https://git-scm.com/)
+![GitHub](https://img.shields.io/badge/github-black.svg?style=for-the-badge&logo=github&logoColor=white)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-black.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-black?style=for-the-badge&logo=postman&logoColor=white)
+[![Bash](https://img.shields.io/badge/-Bash-black?style=for-the-badge&logoColor=white&logo=gnu-bash)](https://www.gnu.org/software/bash/)
+[![Figma](https://img.shields.io/badge/-Figma-black?style=for-the-badge&logoColor=white&logo=figma)](https://www.figma.com/)
+[![Framer](https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer)](https://www.framer.com/)
+[![Illustrator](https://img.shields.io/badge/-Illustrator-black?style=for-the-badge&logoColor=white&logo=adobe-illustrator)](https://www.adobe.com/in/products/illustrator.html)
+![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-black?style=for-the-badge&logo=adobeindesign&logoColor=white)
+![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-black.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
+![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-black.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-black.svg?style=for-the-badge&logo=Canva&logoColor=white)
+[![Photoshop](https://img.shields.io/badge/-Photoshop-black?style=for-the-badge&logoColor=white&logo=adobe-photoshop)](https://www.photoshop.com/en/)
+[![OpenCV](https://img.shields.io/badge/-OpenCV-black?style=for-the-badge&logoColor=white&logo=opencv)](https://opencv.org/)
