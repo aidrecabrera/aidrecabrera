@@ -422,7 +422,7 @@ export const top = (props: Props & { contributions: number }) => {
 				<span class="shine">${(props.contributions / 1000).toFixed(1)}k</span> Contributions
 
 			</div>
-			<div class="readme fade-in">@aidrecabrera</div>
+			<div class="readme fade-in">&lt;Status: Elusive/&gt;</div>
 		</div>
 	`;
 

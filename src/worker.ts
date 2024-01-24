@@ -19,6 +19,9 @@ const worker: ExportedHandler = {
     if (section === 'top') {
       const { contributions } = data;
       content = top({ height: 20, contributions, theme });
+    } else if (section === 'link-resume') {
+      const index = Number(searchParams.get('i')) ?? 0;
+      content = link({ height: 18, width: 100, index, theme })('Resume');
     } else if (section === 'link-website') {
       const index = Number(searchParams.get('i')) ?? 0;
       content = link({ height: 18, width: 100, index, theme })('Website');
@@ -30,7 +33,7 @@ const worker: ExportedHandler = {
       content = link({ height: 18, width: 100, index, theme })('Facebook');
     } else if (section === 'link-instagram') {
       const index = Number(searchParams.get('i')) ?? 0;
-      content = link({ height: 18, width: 100, index, theme })('Instagram');
+      content = link({ height: 20, width: 100, index, theme })('Instagram');
     } else if (section === 'link-twitter') {
       const index = Number(searchParams.get('i')) ?? 0;
       content = link({ height: 18, width: 100, index, theme })('Twitter');
