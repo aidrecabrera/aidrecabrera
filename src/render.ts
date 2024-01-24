@@ -2,7 +2,7 @@ import type { Year } from './worker';
 
 const BP_MEDIUM = 550;
 const BP_LARGE = 700;
-const BODY_COPY = `Hello, World. I am Aidre (Svene) Cabrera. A humble aspirant who loves Computer Science, Technology, and Writing.`;
+const BODY_COPY = `Hello, World! I am Aidre "Svene" Cabrera. A humble aspirant who loves Computer Science, Technology, and Writing. I seek knowledge, create with passion, and strive to grow even through adversity.`;
 
 interface Props {
   width?: number;
@@ -422,7 +422,7 @@ export const top = (props: Props & { contributions: number }) => {
 				<span class="shine">${(props.contributions / 1000).toFixed(1)}k</span> Contributions
 
 			</div>
-			<div class="readme fade-in">readme.md</div>
+			<div class="readme fade-in">@aidrecabrera</div>
 		</div>
 	`;
 
