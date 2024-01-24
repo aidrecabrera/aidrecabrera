@@ -2,7 +2,7 @@ import type { Year } from './worker';
 
 const BP_MEDIUM = 550;
 const BP_LARGE = 700;
-const BODY_COPY = `Hello, World! I am Aidre "Svene" Cabrera. A humble aspirant who loves Computer Science, Technology, and Writing. I seek knowledge, create with passion, and strive to grow even through adversity.`;
+const BODY_COPY = `Hello, World! I am Aidre "Svene" Cabrera. A humble aspirant who loves Computer Science, Technology, and Writing.`;
 
 interface Props {
   width?: number;
