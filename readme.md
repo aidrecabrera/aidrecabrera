@@ -29,5 +29,5 @@
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://aidre.svene.workers.dev/?section=main&theme=dark">
-  <img src="https://aidre.svene.workers.dev/?section=main&theme=light" alt="Hello, World. I am Aidre (Svene) Cabrera. A humble aspirant who loves Computer Science, Technology, and Writing." width="100%" height="290" align="left">
+  <img src="https://aidre.svene.workers.dev/?section=main&theme=light" alt="Hello, World. I am Aidre (Svene) Cabrera. A humble aspirant who loves Computer Science, Technology, and Writing." width="100%" height="310" align="left">
 </picture>
