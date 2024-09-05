@@ -70,6 +70,7 @@ export async function request(date: { from?: Date; to?: Date }) {
     },
     body: JSON.stringify(body),
   }).then((res) => res.json() as Promise<Response>);
+  console.log(process.env.STATS_TOKEN);
   if (!response.data || !response.data.user) {
     throw new Error(
       `Failed to fetch contributions: ${JSON.stringify(response)}`
