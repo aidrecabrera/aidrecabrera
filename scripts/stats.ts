@@ -1,6 +1,6 @@
-import dotenv from 'dotenv';
-import { writeFile } from 'node:fs/promises';
-import type { Year } from '../src/worker';
+import dotenv from "dotenv";
+import { writeFile } from "node:fs/promises";
+import type { Year } from "../src/worker";
 dotenv.config();
 
 export const START_DATE = new Date();
@@ -10,11 +10,11 @@ export type Contribution = {
   contributionCount: number;
   date: string;
   contributionLevel:
-    | 'NONE'
-    | 'FIRST_QUARTILE'
-    | 'SECOND_QUARTILE'
-    | 'THIRD_QUARTILE'
-    | 'FOURTH_QUARTILE';
+    | "NONE"
+    | "FIRST_QUARTILE"
+    | "SECOND_QUARTILE"
+    | "THIRD_QUARTILE"
+    | "FOURTH_QUARTILE";
 };
 
 export type Response = {
@@ -56,21 +56,28 @@ export async function request(date: { from?: Date; to?: Date }) {
 		}
 		`,
     variables: {
-      username: 'aidrecabrera',
+      username: "aidrecabrera",
       from: date.from?.toISOString(),
-      to: date.to?.toISOString()
-    }
-  };
-  const response = await fetch('https://api.github.com/graphql', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'User-Agent': 'aidrecabrera/readme',
-      Authorization: `bearer ${process.env.GH_SECRET}`
+      to: date.to?.toISOString(),
     },
-    body: JSON.stringify(body)
+  };
+  const response = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "User-Agent": "aidrecabrera/readme",
+      Authorization: `bearer ${process.env.GH_SECRET}`,
+    },
+    body: JSON.stringify(body),
   }).then((res) => res.json() as Promise<Response>);
-  const calender = response.data.user.contributionsCollection.contributionCalendar;
+  if (!response.data || !response.data.user) {
+    throw new Error(
+      `Failed to fetch contributions: ${JSON.stringify(response)}`
+    );
+  }
+  const calender =
+    response.data.user.contributionsCollection.contributionCalendar;
+  console.log(calender);
   const weeks = calender.weeks;
   return { weeks, contributions: calender.totalContributions };
 }
@@ -79,17 +86,17 @@ export async function request(date: { from?: Date; to?: Date }) {
  * Turn the GitHub contribution level into a number
  * @param level Contribution level
  */
-const levelToInt = (level: Contribution['contributionLevel']) => {
+const levelToInt = (level: Contribution["contributionLevel"]) => {
   switch (level) {
-    case 'NONE':
+    case "NONE":
       return 0;
-    case 'FIRST_QUARTILE':
+    case "FIRST_QUARTILE":
       return 1;
-    case 'SECOND_QUARTILE':
+    case "SECOND_QUARTILE":
       return 2;
-    case 'THIRD_QUARTILE':
+    case "THIRD_QUARTILE":
       return 3;
-    case 'FOURTH_QUARTILE':
+    case "FOURTH_QUARTILE":
       return 4;
   }
 };
@@ -109,15 +116,17 @@ async function getAllContributions(start: Date, end = new Date()) {
     let next = new Date(cursor.getFullYear() + 1, 0, 1);
     // prevent fetching data beyond the current date
     if (next > end) next = end;
-    console.info('...Fetching from', cursor.toISOString(), next.toISOString());
+    console.info("...Fetching from", cursor.toISOString(), next.toISOString());
     const data = await request({ to: next, from: cursor });
     contributions += data.contributions;
     years.push({
       from: cursor.toISOString(),
       to: next.toISOString(),
       days: data.weeks
-        .flatMap((week) => week.contributionDays.map((day) => levelToInt(day.contributionLevel)))
-        .reverse()
+        .flatMap((week) =>
+          week.contributionDays.map((day) => levelToInt(day.contributionLevel))
+        )
+        .reverse(),
     });
     cursor = next;
   }
@@ -126,6 +135,6 @@ async function getAllContributions(start: Date, end = new Date()) {
 
 const [years, contributions] = await getAllContributions(START_DATE);
 
-await writeFile('src/stats.json', JSON.stringify({ years, contributions }));
+await writeFile("src/stats.json", JSON.stringify({ years, contributions }));
 
-console.log('...Done');
+console.log("...Done");
