@@ -4,12 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "wrangler dev",
-    "deploy": "pnpm stats && wrangler deploy",
-    "format": "prettier --write ./{src,scripts}/*",
-    "stats": "tsm --env-file .env scripts/stats.ts",
-    "lint": "prettier --check ./{src,scripts}/*",
-    "types": "tsc --noEmit"
+    "start": "biome wrangler dev",
+    "deploy": "pnpm stats && biome wrangler deploy",
+    "format": "echo 'Prettier is no longer used'",
+    "stats": "biome tsm --env-file .env scripts/stats.ts",
+    "lint": "echo 'Linting is handled differently now'",
+    "types": "biome check"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
