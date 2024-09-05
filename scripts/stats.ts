@@ -1,5 +1,7 @@
 import dotenv from "dotenv";
 import { writeFile } from "node:fs/promises";
+// biome-ignore lint/style/useImportType: necessary
+import { PulseStats } from "../src/render";
 import type { Year } from "../src/worker";
 dotenv.config();
 
@@ -135,5 +137,21 @@ async function getAllContributions(start: Date, end = new Date()) {
 const [years, contributions] = await getAllContributions(START_DATE);
 
 await writeFile("src/stats.json", JSON.stringify({ years, contributions }));
+
+export const fetchPulse = async (username: string): Promise<PulseStats> => {
+  const url = `https://api.whatpulse.org/user.php?user=${username}&formatted=yes&format=json`;
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Error fetching WhatPulse stats: ${response.statusText}`);
+  }
+  const data = (await response.json()) as PulseStats;
+  if (!data || typeof data !== "object") {
+    throw new Error(`Invalid data format: ${JSON.stringify(data)}`);
+  }
+  return data;
+};
+
+const pulseData = await fetchPulse("svenesismar");
+await writeFile("src/pulse.json", JSON.stringify(pulseData, null, 2));
 
 console.log("...Done");

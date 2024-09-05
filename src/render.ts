@@ -10,6 +10,70 @@ interface Props {
   theme: "light" | "dark";
 }
 
+export interface Ranks {
+  Keys: string;
+  Clicks: string;
+  Download: string;
+  Upload: string;
+  Uptime: string;
+  Scrolls: string;
+  Distance: string;
+}
+
+export interface Computer {
+  ComputerID: string;
+  Name: string;
+  ClientVersion: string;
+  Keys: string;
+  Clicks: string;
+  Scrolls: string;
+  DistanceInMiles: string;
+  Download: number;
+  Upload: number;
+  UptimeSeconds: string;
+  UptimeShort: string;
+  UptimeLong: string;
+  Pulses: string;
+  LastPulse: string;
+  LastPulseUnixTimestamp: string;
+}
+
+export interface Computers {
+  [key: string]: Computer;
+}
+
+export interface PulseStats {
+  GeneratedTime: string;
+  UserID: string;
+  AccountName: string;
+  Country: string;
+  tld: string;
+  DateJoined: string;
+  DateJoinedUnixTimestamp: string;
+  Homepage: string;
+  LastPulse: string;
+  LastPulseUnixTimestamp: string;
+  Pulses: string;
+  Keys: string;
+  Clicks: string;
+  Scrolls: string;
+  DistanceInMiles: string;
+  Download: string;
+  Upload: string;
+  DownloadMB: number;
+  UploadMB: number;
+  UptimeSeconds: string;
+  UptimeShort: string;
+  UptimeLong: string;
+  AvKeysPerPulse: string;
+  AvClicksPerPulse: string;
+  AvKPS: number;
+  AvCPS: number;
+  Ranks: Ranks;
+  Team: string;
+  Computers: Computers;
+}
+
 interface Attributes {
   height: string;
   "data-theme": "light" | "dark";
@@ -362,7 +426,10 @@ export const main = (props: Props & Main) => {
   });
 };
 
-export const top = (props: Props & { contributions: number }) => {
+export const top = (
+  props: Props & { contributions: number },
+  pulse?: PulseStats
+) => {
   const styles = /* css */ `
 		${shared}
 
@@ -422,8 +489,7 @@ export const top = (props: Props & { contributions: number }) => {
 		<div class="wrapper grid label">
 			<div class="menu fade-in">Connect with me</div>
 			<div class="contributions fade-in">
-				<span class="shine">${(props.contributions / 1000).toFixed(1)}k</span> Contributions
-
+				<span class="shine">${props.contributions.toLocaleString()}</span> Contributions				    
 			</div>
 			<div class="readme fade-in">&lt;Svene/&gt;</div>
 		</div>
@@ -557,5 +623,92 @@ export const fallback = (props: Props & { width: number }) => {
     height: `${props.height}`,
     "data-theme": `${props.theme}`,
     viewbox: `0 0 ${props.width} ${props.height}`,
+  });
+};
+
+export const pulse = (
+  data: PulseStats,
+  props: Pick<Props, "height" | "theme">
+) => {
+  const styles = /* css */ `
+		${shared}
+		:root {
+			--size-height: auto;
+			margin-top: 10px;
+		}
+		.wrapper {
+			align-items: center;
+			gap: 5px;
+		}
+		.uptime {
+			grid-area: 1 / 1 / span 1 / span 3;
+		}
+		.keys {
+			grid-area: 3 / 5 / span 1 / span 2;
+			text-align: right;
+		}
+		.clicks {
+			grid-area: 4 / 5 / span 1 / span 2;
+			text-align: right;
+		}
+		.up {
+			grid-area: 1 / 5 / span 1 / span 2;
+			text-align: right;
+		}
+		.down {
+			grid-area: 2 / 5 / span 1 / span 2;
+			text-align: right;
+		}
+
+		@media (width > ${BP_MEDIUM}px) {
+			.uptime {
+				grid-area: 1 / 4 / span 1 / span 1;
+			}
+			.keys {
+				grid-area: 1 / 1 / span 1 / span 1;
+			}
+			.clicks {
+				grid-area: 2 / 1 / span 1 / span 1;
+			}
+			.up {
+				grid-area: 1 / 4 / span 1 / span 1;
+			}
+			.down {
+				grid-area: 2 / 3 / span 1 / span 1;
+			}
+		}
+
+		@media (width > ${BP_LARGE}px) {
+			.uptime {
+				grid-area: 1 / 3 / span 1 / span 1;
+			}
+			.keys {
+				grid-area: 1 / 4 / span 1 / span 2;
+			}
+			.clicks {
+				grid-area: 2 / 4 / span 1 / span 2;
+			}
+			.up {
+				grid-area: 1 / 6 / span 1 / span 1;
+			}
+			.down {
+				grid-area: 2 / 6 / span 1 / span 1;
+			}
+		}
+	`;
+
+  const html = /*html*/ `
+		<div class="wrapper grid label">
+			<p class="fade-in uptime">Uptime: ${data.UptimeLong.replace(/(\d+ weeks), (\d+ days), (\d+) hours, (\d+) minutes, (\d+) seconds/, "$1, $2, $3hrs, and $4m")}</p>
+			<p class="fade-in up">Download: ${data.Download}</p>
+			<p class="fade-in down">Upload: ${data.Upload}</p>
+			<p class="fade-in keys">Keys: ${data.Keys}</p>
+			<p class="fade-in clicks">Clicks: ${data.Clicks}</p>
+		</div>
+	`;
+
+  return svg(styles, html, {
+    height: `${props.height}`,
+    "data-theme": `${props.theme}`,
   });
 };
