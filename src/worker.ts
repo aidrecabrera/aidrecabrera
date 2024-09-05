@@ -1,4 +1,5 @@
 import pulse_data from "./pulse.json";
+// biome-ignore lint/style/useImportType: not necessary
 import { PulseStats, fallback, link, main, pulse, top } from "./render.js";
 import data from "./stats.json";
 

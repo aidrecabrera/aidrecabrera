@@ -56,5 +56,5 @@
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://aidre.svene.workers.dev/?section=pulse-stats&theme=dark">
-  <img src="https://aidre.svene.workers.dev/?section=pulse-stats&theme=light" width="100%" height="110" align="left">
+  <img src="https://aidre.svene.workers.dev/?section=pulse-stats&theme=light" width="100%" height="200" align="left">
 </picture>
