@@ -46,11 +46,11 @@ export const shared = /* css */ `
 		--color-dot-border-light: rgb(0 0 0 / 0.06);
 
 		--color-text-dark: #e0e0e0;
-		--color-dot-bg-0-dark: #0b3d24;
-		--color-dot-bg-1-dark: #1c4e2a;
-		--color-dot-bg-2-dark: #2a6f3b;
-		--color-dot-bg-3-dark: #38a54a;
-		--color-dot-bg-4-dark: #a0d8a0;
+		--color-dot-bg-0-dark: #0d1b21; 
+		--color-dot-bg-1-dark: #0f3a2a;
+		--color-dot-bg-2-dark: #1a6b3a; 
+		--color-dot-bg-3-dark: #1ebb4d;
+		--color-dot-bg-4-dark: #00ff7f; 
 		--color-dot-border-dark: rgb(0 0 0 / 0.06);
 
 		/* Initial animation offset... */
