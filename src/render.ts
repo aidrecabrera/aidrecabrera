@@ -45,7 +45,7 @@ export const shared = /* css */ `
 		--color-dot-bg-4-light: #0a0a0a;
 		--color-dot-border-light: rgb(0 0 0 / 0.06);
 
-		--color-text-dark: #e0e0e0;
+		--color-text-dark: #4493f8;
 		--color-dot-bg-0-dark: #171b21;
 		--color-dot-bg-1-dark: #0f3a2a;
 		--color-dot-bg-2-dark: #1a6b3a;
