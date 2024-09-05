@@ -26,3 +26,24 @@ jobs:
 
       - name: install dependencies
         run: pnpm install --frozen-lockfile  # installs dependencies
+
+  test-secrets:
+    runs-on: ubuntu-latest
+    needs: run-pnpm-script
+
+    steps:
+      - name: Check Secrets
+        run: |
+          if [ -z "${{ secrets.GH_SECRET }}" ]; then
+            echo "GH_SECRET is not set!"
+            exit 1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
+            echo "CLOUDFLARE_API_TOKEN is not set!"
+            exit 1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+            echo "CLOUDFLARE_ACCOUNT_ID is not set!"
+            exit 1
+          fi
+          echo "All secrets are set."
