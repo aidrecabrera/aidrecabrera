@@ -685,6 +685,7 @@ export const pulse = (
 		@media (width > ${BP_LARGE}px) {
 			.uptime {
 				grid-area: 1 / 4 / span 1 / span 2;
+				padding-left: 10px;
 			}
 			.keys {
 				grid-area: 3 / 6 / span 1 / span 4;
