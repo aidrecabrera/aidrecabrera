@@ -639,6 +639,7 @@ export const pulse = (
 		.wrapper {
 			align-items: center;
 			gap: 5px;
+			--delay: calc(var(--animate-in-contributions-delay) + 2s);
 		}
 		.uptime {
 			grid-area: 1 / 1 / span 1 / span 2;
