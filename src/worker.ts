@@ -1,5 +1,5 @@
 import pulse_data from "./pulse.json";
-import { fallback, link, main, pulse, top } from "./render.js";
+import { PulseStats, fallback, link, main, pulse, top } from "./render.js";
 import data from "./stats.json";
 
 // @ts-nocheck
@@ -43,7 +43,7 @@ const worker: ExportedHandler = {
     } else if (section === "fallback") {
       content = fallback({ height: 180, width: 420, theme });
     } else if (section === "pulse-stats") {
-      content = pulse(pulse_data, {
+      content = pulse(pulse_data as PulseStats, {
         height: 200,
         theme,
       });

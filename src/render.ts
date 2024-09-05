@@ -641,7 +641,7 @@ export const pulse = (
 			gap: 5px;
 		}
 		.uptime {
-			grid-area: 1 / 1 / span 1 / span 3;
+			grid-area: 1 / 1 / span 1 / span 2;
 		}
 		.keys {
 			grid-area: 3 / 5 / span 1 / span 2;
@@ -662,22 +662,22 @@ export const pulse = (
 
 		@media (width > ${BP_MEDIUM}px) {
 			.uptime {
-				grid-area: 1 / 1 / span 1 / span 4;
+				grid-area: 1 / 1 / span 1 / span 2;
 			}
 			.keys {
-				grid-area: 3 / 5 / span 1 / span 2;
+				grid-area: 3 / 5 / span 1 / span 4;
 				text-align: right;
 			}
 			.clicks {
-				grid-area: 4 / 5 / span 1 / span 2;
+				grid-area: 4 / 5 / span 1 / span 4;
 				text-align: right;
 			}
 			.up {
-				grid-area: 1 / 5 / span 1 / span 2;
+				grid-area: 1 / 5 / span 1 / span 4;
 				text-align: right;
 			}
 			.down {
-				grid-area: 2 / 5 / span 1 / span 2;
+				grid-area: 2 / 5 / span 1 / span 4;
 				text-align: right;
 			}
 		}
@@ -687,16 +687,16 @@ export const pulse = (
 				grid-area: 1 / 3 / span 1 / span 2;
 			}
 			.keys {
-				grid-area: 1 / 3 / span 1 / span 2;
+				grid-area: 3 / 6 / span 1 / span 4;
 			}
 			.clicks {
-				grid-area: 2 / 3 / span 1 / span 2;
+				grid-area: 4 / 6 / span 1 / span 4;
 			}
 			.up {
-				grid-area: 1 / 6 / span 1 / span 2;
+				grid-area: 1 / 6 / span 1 / span 4;
 			}
 			.down {
-				grid-area: 2 / 6 / span 1 / span 2;
+				grid-area: 2 / 6 / span 1 / span 4;
 			}
 		}
 	`;
