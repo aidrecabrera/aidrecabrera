@@ -55,6 +55,6 @@
   <img src="https://aidre.svene.workers.dev/?section=main&theme=light" alt="Hello, World. I am Aidre (Svene) Cabrera. A humble aspirant who loves Computer Science, Technology, and Writing." width="100%" height="310" align="left">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="http://localhost:8787/?section=pulse-stats&theme=dark">
-  <img src="http://localhost:8787/?section=pulse-stats&theme=light" width="100%" height="115" align="left">
+  <source media="(prefers-color-scheme: dark)" srcset="https://aidre.svene.workers.dev/?section=pulse-stats&theme=dark">
+  <img src="https://aidre.svene.workers.dev/?section=pulse-stats&theme=light" width="100%" height="115" align="left">
 </picture>
