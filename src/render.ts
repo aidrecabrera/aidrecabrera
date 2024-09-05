@@ -1,4 +1,4 @@
-import type { Year } from './worker';
+import type { Year } from "./worker";
 
 const BP_MEDIUM = 550;
 const BP_LARGE = 700;
@@ -7,20 +7,23 @@ const BODY_COPY = `Hello, World! I am Aidre "Svene" Cabrera, a dedicated autodid
 interface Props {
   width?: number;
   height: number;
-  theme: 'light' | 'dark';
+  theme: "light" | "dark";
 }
 
 interface Attributes {
   height: string;
-  'data-theme': 'light' | 'dark';
+  "data-theme": "light" | "dark";
   [key: string]: string;
 }
 
 const attr = (obj: Record<string, string>) =>
-  Object.entries(obj).reduce((acc, [key, value]) => `${acc} ${key}="${value}"`, '');
+  Object.entries(obj).reduce(
+    (acc, [key, value]) => `${acc} ${key}="${value}"`,
+    ""
+  );
 
 const svg = (styles: string, html: string, attributes: Attributes) => {
-  if (!attributes.width) attributes.width = '100%';
+  if (!attributes.width) attributes.width = "100%";
   return /*html*/ `
 	<svg xmlns="http://www.w3.org/2000/svg" fill="none" ${attr(attributes)}>
 		<foreignObject width="100%" height="100%">
@@ -43,11 +46,11 @@ export const shared = /* css */ `
 		--color-dot-border-light: rgb(0 0 0 / 0.06);
 
 		--color-text-dark: #e0e0e0;
-		--color-dot-bg-0-dark: #2c2c2c;
-		--color-dot-bg-1-dark: #4f4f4f;
-		--color-dot-bg-2-dark: #7a7a7a;
-		--color-dot-bg-3-dark: #a5a5a5;
-		--color-dot-bg-4-dark: #d0d0d0;
+		--color-dot-bg-0-dark: #0b3d24;
+		--color-dot-bg-1-dark: #1c4e2a;
+		--color-dot-bg-2-dark: #2a6f3b;
+		--color-dot-bg-3-dark: #38a54a;
+		--color-dot-bg-4-dark: #a0d8a0;
 		--color-dot-border-dark: rgb(0 0 0 / 0.06);
 
 		/* Initial animation offset... */
@@ -317,24 +320,24 @@ export const main = (props: Props & Main) => {
 	`;
 
   const format = (date: Date) =>
-    date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric'
+    date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
     });
 
   const date = (i: number) =>
     i === 0 ? format(new Date()) : new Date(props.years[i].from).getFullYear();
 
-  const days = (days: Year['days']) =>
-    days.map((level) => `<div class="dot dot--${level}"></div>`).join('');
+  const days = (days: Year["days"]) =>
+    days.map((level) => `<div class="dot dot--${level}"></div>`).join("");
 
   const html = /* html */ `
 		<main class="wrapper grid">
 			<article class="intro">
-				<p>${BODY_COPY.split('')
+				<p>${BODY_COPY.split("")
           .map((c, i) => `<span class="fade-in" style="--i: ${i};">${c}</span>`)
-          .join('')}</p>
+          .join("")}</p>
 			</article>
 			<article class="graph">
 				<div class="years" style="--w: ${props.length}; --h: ${props.sizes[0][1]};">
@@ -347,7 +350,7 @@ export const main = (props: Props & Main) => {
 						</div>
 					`
             )
-            .join('')}
+            .join("")}
 				</div>
 			</article>
 		</main>
@@ -355,7 +358,7 @@ export const main = (props: Props & Main) => {
 
   return svg(styles, html, {
     height: `${props.height}`,
-    'data-theme': `${props.theme}`
+    "data-theme": `${props.theme}`,
   });
 };
 
@@ -428,7 +431,7 @@ export const top = (props: Props & { contributions: number }) => {
 
   return svg(styles, html, {
     height: `${props.height}`,
-    'data-theme': `${props.theme}`
+    "data-theme": `${props.theme}`,
   });
 };
 
@@ -495,7 +498,7 @@ export const link = (props: Props & { index: number }) => (label: string) => {
   return svg(styles, html, {
     width: `${props.width}`,
     height: `${props.height}`,
-    'data-theme': `${props.theme}`
+    "data-theme": `${props.theme}`,
   });
 };
 
@@ -541,9 +544,9 @@ export const fallback = (props: Props & { width: number }) => {
   const html = /* html */ `
 		<main class="wrapper">
 			<div class="intro">
-				<p>${BODY_COPY.split('')
+				<p>${BODY_COPY.split("")
           .map((c, i) => `<span class="fade-in" style="--i: ${i};">${c}</span>`)
-          .join('')}</p>
+          .join("")}</p>
 				<p class="hint fade-in">— I'm all for the foxy browser, but try Chrome/Safari for this one!</p>
 			</div>
 		</main>
@@ -552,7 +555,7 @@ export const fallback = (props: Props & { width: number }) => {
   return svg(styles, html, {
     width: `${props.width}`,
     height: `${props.height}`,
-    'data-theme': `${props.theme}`,
-    viewbox: `0 0 ${props.width} ${props.height}`
+    "data-theme": `${props.theme}`,
+    viewbox: `0 0 ${props.width} ${props.height}`,
   });
 };
