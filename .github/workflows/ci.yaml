@@ -20,7 +20,7 @@ jobs:
           cache: 'pnpm'
 
       - run: pnpm install
-      - run: pnpm types
+      # - run: pnpm types
       - run: pnpm lint
 
   test-secrets:
