@@ -34,7 +34,7 @@ jobs:
       - name: fetch stats
         run: pnpm stats  # contribution stats
         env:
-          API_TOKEN_GITHUB: ${{ secrets.GH_SECRET }}
+          GH_SECRET: ${{ secrets.GH_SECRET }}
 
       - name: deploy
         uses: cloudflare/wrangler-action@v3.7.0
