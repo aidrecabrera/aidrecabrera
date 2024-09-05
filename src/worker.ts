@@ -45,7 +45,7 @@ const worker: ExportedHandler = {
       content = fallback({ height: 180, width: 420, theme });
     } else if (section === "pulse-stats") {
       content = pulse(pulse_data as PulseStats, {
-        height: 110,
+        height: 120,
         theme,
       });
     } else {

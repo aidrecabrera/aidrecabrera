@@ -642,22 +642,22 @@ export const pulse = (
 			--delay: calc(var(--animate-in-contributions-delay) + 2s);
 		}
 		.uptime {
-			grid-area: 1 / 1 / span 1 / span 2;
+			grid-area: 1 / 1 / span 1 / span 3;
 		}
 		.keys {
-			grid-area: 3 / 5 / span 1 / span 2;
+			grid-area: 3 / 5 / span 1 / span 3;
 			text-align: right;
 		}
 		.clicks {
-			grid-area: 4 / 5 / span 1 / span 2;
+			grid-area: 4 / 5 / span 1 / span 3;
 			text-align: right;
 		}
 		.up {
-			grid-area: 1 / 5 / span 1 / span 2;
+			grid-area: 1 / 5 / span 1 / span 3;
 			text-align: right;
 		}
 		.down {
-			grid-area: 2 / 5 / span 1 / span 2;
+			grid-area: 2 / 5 / span 1 / span 3;
 			text-align: right;
 		}
 
