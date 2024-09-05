@@ -37,7 +37,7 @@ const worker: ExportedHandler = {
     } else if (section === 'link-twitter') {
       const index = Number(searchParams.get('i')) ?? 0;
       content = link({ height: 18, width: 100, index, theme })('Twitter');
-    } else if (section == 'fallback') {
+    } else if (section === 'fallback') {
       content = fallback({ height: 180, width: 420, theme });
     } else {
       const years = data.years.slice(0, MAX_YEARS);
@@ -68,6 +68,7 @@ const worker: ExportedHandler = {
       // Calculate total length based on the width of the columns and the year gap
       const length =
         sizes.reduce((acc, size) => {
+          // @ts-ignore
           acc += size[0] + options.year.gap;
           return acc;
         }, 0) - options.year.gap;

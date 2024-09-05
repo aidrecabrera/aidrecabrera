@@ -1,6 +1,6 @@
+import dotenv from 'dotenv';
 import { writeFile } from 'node:fs/promises';
 import type { Year } from '../src/worker';
-import dotenv from 'dotenv';
 dotenv.config();
 
 export const START_DATE = new Date();
@@ -66,7 +66,7 @@ export async function request(date: { from?: Date; to?: Date }) {
     headers: {
       'Content-Type': 'application/json',
       'User-Agent': 'aidrecabrera/readme',
-      Authorization: `bearer ${process.env.GITHUB_TOKEN}`
+      Authorization: `bearer ${process.env.GH_SECRET}`
     },
     body: JSON.stringify(body)
   }).then((res) => res.json() as Promise<Response>);

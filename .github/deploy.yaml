@@ -1,0 +1,43 @@
+name: regenerate
+
+on:
+  push:
+    branches:
+      - main
+
+  schedule:
+    # schedule to run at 00:00 and 12:00 every day
+    - cron: '0 0,12 * * *'
+
+jobs:
+  run-pnpm-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3 
+
+      - name: setup pnpm
+        uses: pnpm/action-setup@v4.0.0
+        with:
+          version: 9.4.0 
+
+      - name: set up node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.8.1
+          cache: 'pnpm'  # caches pnpm dependencies
+
+      - name: install dependencies
+        run: pnpm install 
+
+      - name: fetch stats
+        run: pnpm stats  # contribution stats
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.GH_SECRET }}
+
+      - name: deploy
+        uses: cloudflare/wrangler-action@v3.7.0
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }} 
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }} 

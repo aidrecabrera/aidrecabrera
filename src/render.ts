@@ -34,20 +34,20 @@ const svg = (styles: string, html: string, attributes: Attributes) => {
 
 export const shared = /* css */ `
 	:root {
-		--color-text-light: #255DF6;
-		--color-dot-bg-0-light: #EBEDF0;
-		--color-dot-bg-1-light: #A7BEFB;
-		--color-dot-bg-2-light: #628BF9;
-		--color-dot-bg-3-light: #4071F7;
-		--color-dot-bg-4-light: #255DF6;
+		--color-text-light: #0a0a0a;
+		--color-dot-bg-0-light: #ebedf0;
+		--color-dot-bg-1-light: #d4d4d4;
+		--color-dot-bg-2-light: #a3a3a3;
+		--color-dot-bg-3-light: #737373;
+		--color-dot-bg-4-light: #0a0a0a;
 		--color-dot-border-light: rgb(0 0 0 / 0.06);
 
-		--color-text-dark: #255DF6;
-		--color-dot-bg-0-dark: #171B21;
-		--color-dot-bg-1-dark: #152A62;
-		--color-dot-bg-2-dark: #2048B3;
-		--color-dot-bg-3-dark: #1951EB;
-		--color-dot-bg-4-dark: #0048FF;
+		--color-text-dark: #e0e0e0;
+		--color-dot-bg-0-dark: #2c2c2c;
+		--color-dot-bg-1-dark: #4f4f4f;
+		--color-dot-bg-2-dark: #7a7a7a;
+		--color-dot-bg-3-dark: #a5a5a5;
+		--color-dot-bg-4-dark: #d0d0d0;
 		--color-dot-border-dark: rgb(0 0 0 / 0.06);
 
 		/* Initial animation offset... */
@@ -102,7 +102,7 @@ export const shared = /* css */ `
 		position: relative;
 		overflow: clip;
 
-		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 		color: var(--color-text);
 	}
 
@@ -324,7 +324,7 @@ export const main = (props: Props & Main) => {
     });
 
   const date = (i: number) =>
-    i == 0 ? format(new Date()) : new Date(props.years[i].from).getFullYear();
+    i === 0 ? format(new Date()) : new Date(props.years[i].from).getFullYear();
 
   const days = (days: Year['days']) =>
     days.map((level) => `<div class="dot dot--${level}"></div>`).join('');
