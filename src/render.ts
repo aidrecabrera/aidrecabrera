@@ -662,25 +662,29 @@ export const pulse = (
 
 		@media (width > ${BP_MEDIUM}px) {
 			.uptime {
-				grid-area: 1 / 4 / span 1 / span 1;
+				grid-area: 1 / 1 / span 1 / span 4;
 			}
 			.keys {
-				grid-area: 1 / 1 / span 1 / span 1;
+				grid-area: 3 / 5 / span 1 / span 2;
+				text-align: right;
 			}
 			.clicks {
-				grid-area: 2 / 1 / span 1 / span 1;
+				grid-area: 4 / 5 / span 1 / span 2;
+				text-align: right;
 			}
 			.up {
-				grid-area: 1 / 4 / span 1 / span 1;
+				grid-area: 1 / 5 / span 1 / span 2;
+				text-align: right;
 			}
 			.down {
-				grid-area: 2 / 3 / span 1 / span 1;
+				grid-area: 2 / 5 / span 1 / span 2;
+				text-align: right;
 			}
 		}
 
 		@media (width > ${BP_LARGE}px) {
 			.uptime {
-				grid-area: 1 / 3 / span 1 / span 1;
+				grid-area: 1 / 3 / span 1 / span 4;
 			}
 			.keys {
 				grid-area: 1 / 4 / span 1 / span 2;
@@ -689,17 +693,26 @@ export const pulse = (
 				grid-area: 2 / 4 / span 1 / span 2;
 			}
 			.up {
-				grid-area: 1 / 6 / span 1 / span 1;
+				grid-area: 1 / 6 / span 1 / span 2;
 			}
 			.down {
-				grid-area: 2 / 6 / span 1 / span 1;
+				grid-area: 2 / 6 / span 1 / span 2;
 			}
 		}
 	`;
 
   const html = /*html*/ `
 		<div class="wrapper grid label">
-			<p class="fade-in uptime">Uptime: ${data.UptimeLong.replace(/(\d+ weeks), (\d+ days), (\d+) hours, (\d+) minutes, (\d+) seconds/, "$1, $2, $3hrs, and $4m")}</p>
+			<p class="fade-in uptime">Uptime: ${data.UptimeLong.replace(
+        /(\d+) weeks,/,
+        "$1 weeks &amp;"
+      )
+        .replace(/(\d+) days,/, "$1 days")
+        .replace(/(\d+) hours,/, "")
+        .replace(/(\d+) minutes,/, "")
+        .replace(/(\d+) seconds/, "")
+        .replace(/\s+,/g, "")
+        .trim()}</p>
 			<p class="fade-in up">Download: ${data.Download}</p>
 			<p class="fade-in down">Upload: ${data.Upload}</p>
 			<p class="fade-in keys">Keys: ${data.Keys}</p>

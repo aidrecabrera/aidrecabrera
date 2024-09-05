@@ -42,7 +42,7 @@ const worker: ExportedHandler = {
       content = fallback({ height: 180, width: 420, theme });
     } else if (section === "pulse-stats") {
       content = pulse(pulse_data, {
-        height: 110,
+        height: 200,
         theme,
       });
     } else {
