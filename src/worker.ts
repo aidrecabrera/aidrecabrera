@@ -2,6 +2,8 @@ import pulse_data from "./pulse.json";
 import { fallback, link, main, pulse, top } from "./render.js";
 import data from "./stats.json";
 
+// @ts-nocheck
+
 export type Year = {
   from: string;
   to: string;

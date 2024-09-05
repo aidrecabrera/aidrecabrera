@@ -684,13 +684,13 @@ export const pulse = (
 
 		@media (width > ${BP_LARGE}px) {
 			.uptime {
-				grid-area: 1 / 3 / span 1 / span 4;
+				grid-area: 1 / 3 / span 1 / span 2;
 			}
 			.keys {
-				grid-area: 1 / 4 / span 1 / span 2;
+				grid-area: 1 / 3 / span 1 / span 2;
 			}
 			.clicks {
-				grid-area: 2 / 4 / span 1 / span 2;
+				grid-area: 2 / 3 / span 1 / span 2;
 			}
 			.up {
 				grid-area: 1 / 6 / span 1 / span 2;
