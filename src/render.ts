@@ -489,7 +489,7 @@ export const top = (
 		<div class="wrapper grid label">
 			<div class="menu fade-in">Connect with me</div>
 			<div class="contributions fade-in">
-				<span class="shine">${props.contributions.toLocaleString()}</span> Contributions				    
+				<span class="shine">${(props.contributions / 1000).toFixed(1)}k</span> Contributions			    
 			</div>
 			<div class="readme fade-in">&lt;Svene/&gt;</div>
 		</div>
