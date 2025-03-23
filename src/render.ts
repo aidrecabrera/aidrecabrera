@@ -2,7 +2,7 @@ import type { Year } from "./worker";
 
 const BP_MEDIUM = 550;
 const BP_LARGE = 700;
-const BODY_COPY = `Hello, World! I am Aidre "Svene" Cabrera, a dedicated autodidact aspirant with a profound interest in the fields of Computer Science, Technology, and Writing.`;
+const BODY_COPY = `Aidre Cabrera—an autodidact aspirant who loves coding, writing, and learning.`;
 
 interface Props {
   width?: number;
@@ -100,22 +100,31 @@ const svg = (styles: string, html: string, attributes: Attributes) => {
 };
 
 export const shared = /* css */ `
+	@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;display=swap');
+	
 	:root {
-		--color-text-light: #0a0a0a;
-		--color-dot-bg-0-light: #ebedf0;
-		--color-dot-bg-1-light: #d4d4d4;
-		--color-dot-bg-2-light: #a3a3a3;
-		--color-dot-bg-3-light: #737373;
-		--color-dot-bg-4-light: #0a0a0a;
-		--color-dot-border-light: rgb(0 0 0 / 0.06);
-
-		--color-text-dark: #4493f8;
-		--color-dot-bg-0-dark: #171b21;
-		--color-dot-bg-1-dark: #0f3a2a;
-		--color-dot-bg-2-dark: #1a6b3a;
-		--color-dot-bg-3-dark: #1ebb4d;
-		--color-dot-bg-4-dark: #00ff7f;
-		--color-dot-border-dark: rgb(0 0 0 / 0.06);
+		--color-black: #202020;
+		--color-white: #FFFFFF;
+    
+		--color-text-light: var(--color-black);
+		--color-text-dark: var(--color-white);
+		
+		--color-dot-bg-0-light: var(--color-white);
+		--color-dot-bg-1-light: #e0e0e0;
+		--color-dot-bg-2-light: #b0b0b0;
+		--color-dot-bg-3-light: #808080;
+		--color-dot-bg-4-light: var(--color-black);
+		
+		--color-dot-bg-0-dark: #262626;
+		--color-dot-bg-1-dark: #404040;
+		--color-dot-bg-2-dark: #686868;
+		--color-dot-bg-3-dark: #a0a0a0;
+		--color-dot-bg-4-dark: var(--color-white);
+		
+		--color-dot-border-light: rgba(32, 32, 32, 0.06);
+		--color-dot-border-dark: rgba(255, 255, 255, 0.06);
+		
+		--font-primary: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 
 		/* Initial animation offset... */
 		--default-delay: 1s;
@@ -169,11 +178,11 @@ export const shared = /* css */ `
 		position: relative;
 		overflow: clip;
 
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+		font-family: var(--font-primary);
 		color: var(--color-text);
 	}
 
-	/* Hide everything in Firefox by default – show fallback instead */
+	/* Hide everything in Firefox by default - show fallback instead */
 	@-moz-document url-prefix() {
 		.wrapper {
 			display: none;
@@ -217,9 +226,9 @@ export const shared = /* css */ `
 	.shine {
 		background-color: var(--color-text);
 		background-image: linear-gradient(-75deg,
-			rgb(0 0 0 / 0) 0%,
-			rgb(255 255 255 / 0.18) 15%,
-			rgb(0 0 0 / 0) 25%
+			transparent 0%,
+			rgba(255, 255, 255, 0.18) 15%,
+			transparent 25%
 		);
 		background-size: 200%;
 		-webkit-background-clip: text;
@@ -464,7 +473,7 @@ export const top = (
 				grid-area: 1 / 1 / span 1 / span 2;
 			}
 			.contributions {
-				contain: content; /* show agian */
+				contain: content; /* show again */
 				grid-area: 1 / 3 / span 1 / span 2;
 			}
 			.readme {

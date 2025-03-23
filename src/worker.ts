@@ -1,6 +1,5 @@
-import pulse_data from "./pulse.json";
 // biome-ignore lint/style/useImportType: not necessary
-import { PulseStats, fallback, link, main, pulse, top } from "./render.js";
+import { PulseStats, fallback, link, main, top } from "./render.js";
 import data from "./stats.json";
 
 // @ts-nocheck
@@ -43,11 +42,6 @@ const worker: ExportedHandler = {
       content = link({ height: 18, width: 100, index, theme })("Twitter");
     } else if (section === "fallback") {
       content = fallback({ height: 180, width: 420, theme });
-    } else if (section === "pulse-stats") {
-      content = pulse(pulse_data as PulseStats, {
-        height: 130,
-        theme,
-      });
     } else {
       const years = data.years.slice(0, MAX_YEARS);
       const location = {
